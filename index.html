@@ -15,8 +15,52 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
+      <div class="weather-app-container">
+        <form class="search-city-form">
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Enter a city..."
+                autocomplete="off"
+                class="form-control shadow-sm"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm w-100"
+              />
+            </div>
+            <div class="col-3">
+              <button class="btn btn-info w-100" id="current-location-button">
+                Current
+              </button>
+            </div>
+          </div>
+        </form>
         <h1>Kyiv, UA</h1>
+        <ul>
+          <li>Last updated: Saturday 05:05</li>
+          <li>Clear sky</li>
+        </ul>
+        <div class="row">
+          <div class="col-sm-auto">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
+              alt="Clear sky"
+            />
+          </div>
+          <div class="col-sm-auto">15 °C | °F</div>
+          <div class="col-sm-auto">
+            <ul>
+              <li>Feels like: 2%</li>
+              <li>Humidity: 85%</li>
+              <li>Wind: 6 km/h</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <script src="src/app.js"></script>
