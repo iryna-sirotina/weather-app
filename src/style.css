@@ -1,0 +1,67 @@
+h1 {
+  margin-top: 15px;
+  font-size: 46px;
+  text-transform: capitalize;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  font-size: 14px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app-container {
+  background: radial-gradient(
+    668px at 2.6% 8.3%,
+    rgb(219, 112, 147) 0%,
+    rgb(255, 228, 225) 49.5%,
+    rgb(200, 130, 200) 99.4%
+  );
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.overview {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.weather-icon {
+  text-align: center;
+  padding: 0;
+}
+
+.current-temperature {
+  font-size: 46px;
+  text-align: right;
+  padding: 0;
+}
+
+.units {
+  font-size: 14px;
+  padding: 2px;
+  position: relative;
+  top: -10px;
+}
+
+.github-link {
+  text-decoration: none;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
