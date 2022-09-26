@@ -15,6 +15,10 @@ li {
   padding: 0;
 }
 
+li:first-letter {
+  text-transform: capitalize;
+}
+
 footer {
   font-size: 14px;
 }
@@ -60,8 +64,10 @@ footer {
 
 .github-link {
   text-decoration: none;
+  color: #8b147e;
 }
 
 .github-link:hover {
   text-decoration: underline;
+  color: #8b147e;
 }
