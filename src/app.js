@@ -40,7 +40,7 @@ function displayForecast(response) {
     if (index < 6) {
       forecastHTML =
         forecastHTML +
-        `<div class="col-sm-2">
+        `<div class="col-sm-2 daily-forecast">
           <div class="card">
             <div class="card-body">
         <div class="forecast-date">${formatDay(forecastDay.dt)}</div>
@@ -48,7 +48,7 @@ function displayForecast(response) {
           src="http://openweathermap.org/img/wn/${
             forecastDay.weather[0].icon
           }@2x.png"
-          alt=""
+          alt="Weather icon"
           width="60"
         />
         <div class="forecast-temperatures">
