@@ -105,3 +105,8 @@ footer {
 .forecast-temperature-max {
   font-weight: 600;
 }
+
+.material-symbols-outlined {
+  position: relative;
+  bottom: -5px;
+}
